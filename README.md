@@ -510,6 +510,9 @@ echo 'complete -F __start_helm h' >> ~/.bashrc
 
 # Apply changes immediately
 source ~/.bashrc
+
+curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
+
 ```
 
 ---
